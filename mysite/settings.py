@@ -107,7 +107,7 @@ STATIC_URL = '/static/'
 ACCOUNT_ACTIVATION_DAYS = 7
 REGISTRATION_AUTO_LOGIN = True
 # Note the Login_Redirect below may need to change to a different page
-LOGIN_REDIRECT_URL = '/index/'
+LOGIN_REDIRECT_URL = '/'
 
 # Email Backend
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
