@@ -104,7 +104,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Registration
-ACCOUNT_ACTIVATION_DAYS = 7
+ACCOUNT_ACTIVATION_DAYS = 180
 REGISTRATION_AUTO_LOGIN = True
 # Note the Login_Redirect below may need to change to a different page
 LOGIN_REDIRECT_URL = '/estimator/'
