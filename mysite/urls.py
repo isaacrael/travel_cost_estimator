@@ -6,6 +6,7 @@ urlpatterns = [
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', 'travel_expense_estimator.views.index', name='index'),
+    url(r'^estimator/', 'travel_expense_estimator.views.estimator', name='estimator'),
     url(r'^account/', include('registration.backends.default.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
