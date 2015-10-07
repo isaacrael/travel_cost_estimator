@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'index.html')
+
+def estimator(request):
+    return render(request, 'estimator.html')
