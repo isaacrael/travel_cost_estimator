@@ -115,7 +115,8 @@ LOGOUT_REDIRECT_URL = '/account/logout'
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "mail.gilrael.com"
 EMAIL_HOST_USER = "gil@gilrael.com"
-EMAIL_PORT = 143
+EMAIL_PORT = 25
+# EMAIL_PORT FOR TLS is 587
 EMAIL_USE_TLS = True
 
 # Settings for work currently testing they do not work now
